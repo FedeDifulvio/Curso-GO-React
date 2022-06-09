@@ -1,5 +1,7 @@
 module github.com/FedeDifulvio/Curso-GO-React
 
-require(
+go 1.18
+
+require (
 
 )
