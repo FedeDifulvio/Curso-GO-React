@@ -14,7 +14,7 @@ func InsertoRegistro(u models.Usuario) (string, bool, error) {
 
 	defer cancel()
 
-	db := MongoCN.Database("twittor")
+	db := MongoCN.Database("Twittor")
 
 	col := db.Collection("usuarios")
 
